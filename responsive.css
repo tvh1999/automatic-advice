@@ -1,0 +1,19 @@
+@media (max-width: 23.4375em) {
+  .app {
+    width: 320px;
+  }
+
+  .app__btn {
+    bottom: -6.5%;
+    left: 42.7%;
+  }
+
+  .attribution {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+  }
+}

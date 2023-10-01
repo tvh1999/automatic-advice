@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --neon-green: hsl(150, 100%, 66%);
+  --light-cyan: hsl(193, 38%, 86%);
+  --dark-blue: hsl(218, 23%, 16%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --app-width: 500px;
+}
+
+html {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+}
+
+body {
+  background-color: var(--dark-blue);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 100%;
+}
+
+.app {
+  position: relative;
+  width: var(--app-width);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: var(--dark-grayish-blue);
+  border-radius: 10px;
+}
+
+.app__heading {
+  color: var(--neon-green);
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.app__text-quote {
+  text-align: center;
+  font-size: 28px;
+  color: var(--light-cyan);
+  overflow: hidden;
+}
+
+.app__btn {
+  position: absolute;
+  background-color: var(--neon-green);
+  padding: 14px;
+  bottom: -8%;
+  left: 45.4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+}
+
+.app__divider {
+  margin: 18px 0 12px 0;
+}
+
+.app__btn img {
+  stroke: var(--dark-grayish-blue);
+  width: 18px;
+  height: 18px;
+}
+
+.app__btn:hover {
+  box-shadow: var(--neon-green) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
